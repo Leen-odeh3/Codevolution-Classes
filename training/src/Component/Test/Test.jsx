@@ -1,4 +1,5 @@
 import React from 'react'
+import './Test.scss'
 
 const Test = () => {
 
@@ -11,6 +12,13 @@ const Test = () => {
       <p style={style}>Hello, This is new Training</p>
       <p>{name ==='leen' ? "hello leen" : "hello there"}</p>
       {nums}
+      <div className='info'>
+        <h3>Hello iam leen </h3>
+        <p>How are you?</p>
+      </div>
+
+
+      
     </div>
   )
 }
