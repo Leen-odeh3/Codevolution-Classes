@@ -1,10 +1,12 @@
-import Test from './Component/Test/Test.jsx'
-function App() {
+import React from 'react'
+import Greet from './Component/Greet/Greet'
+
+const App = () => {
   return (
-    <div className="App">
-      <Test/>
+    <div>
+      <Greet/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
