@@ -5,8 +5,11 @@ import Welcome from './Component/Welcom/Welcome'
 const App = () => {
   return (
     <div>
-      <Greet/>
+      <Greet name="Leen"/>
+      <Greet name="kareem"/>
+      <Greet name="Marah"/>
       <Welcome/>
+
     </div>
   )
 }
