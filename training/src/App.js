@@ -5,11 +5,12 @@ import Counter from "./Component/Counter/Counter";
 import Destructuring from "./Component/Destructuring/Destructuring";
 import User from "./Component/User/User.jsx";
 import Numbers from "./Component/Numbers/Numbers";
+import Usestate from "./Component/Usestate/Usestate";
 
 const App = () => {
   return (
     <>
-      <div>
+      {/* <div>
         <Greet name="Leen" />
         <Greet name="kareem" />
         <Greet name="Marah" />
@@ -19,7 +20,10 @@ const App = () => {
         <User />
       <Numbers/>
       </div>
-      <div></div>
+      <div></div> */}
+<Usestate/>
+
+      
     </>
   );
 };
