@@ -1,9 +1,10 @@
 
 
-const Greet = () => {
+const Greet = (props) => {
+  const {name}=props;
   return (
     <div>
-      <p>Hello leen</p>
+      <p>Hello {name}</p>
     </div>
   )
 }
