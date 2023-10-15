@@ -2,20 +2,21 @@
 // import Greet from "./Component/Greet"
 // import Props from "./Component/Props/Props"
 // import Event from './Component/Event/Event'
+// import User from "./Component/User"
 
-import User from "./Component/User"
+import List from "./Component/List";
 
 function App() {
-
   return (
     <>
-    {/* <Greet/>
+      {/* <Greet/>
     <Class/> */}
-{/* <Props/> */}
-{/* <Event/> */}
-<User/>
+      {/* <Props/> */}
+      {/* <Event/> */}
+      {/* <User/> */}
+      <List />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
