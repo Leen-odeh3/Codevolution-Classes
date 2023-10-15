@@ -1,11 +1,5 @@
 # Codevolution-Classes
 
-###### Huge thanks to Vishwas for this awesome tutorials !.
-
-###### I gained so much from this series, and watched it like multiple times. 
-
-### Repo link
-https://github.com/gopinav/React-Tutorials.git 
 
 ###### Huge thanks to Vishwas for this awesome tutorials !.
 ###### I gained so much from this series, and watched it like multiple times. 
