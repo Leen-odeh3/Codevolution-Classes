@@ -1,8 +1,7 @@
 // import Class from "./Component/Class"
 // import Greet from "./Component/Greet"
-
-import Props from "./Component/Props/Props"
-
+// import Props from "./Component/Props/Props"
+import Event from './Component/Event/Event'
 
 function App() {
 
@@ -10,8 +9,8 @@ function App() {
     <>
     {/* <Greet/>
     <Class/> */}
-<Props/>
-
+{/* <Props/> */}
+<Event/>
     </>
   )
 }
