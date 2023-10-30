@@ -5,8 +5,9 @@
 // import User from "./Component/User"
 // import Tweet from "./Component/Tweet";
 // import SayHello from "./Component/SayHello";
+import FetchApi from "./Component/FetchApi";
 
-import Move from "./Component/Move";
+// import Move from "./Component/Move";
 
 // import List from "./Component/List";
 function App() {
@@ -22,7 +23,8 @@ function App() {
       {/* <Tweet name="ahmad" message="hello from ahmad" like="10"/>
       <Tweet name="leen" message="hello from leen" like="5"/>
       <Tweet name="kareem" message="hello from kareem" like="3"/> */}
-      <Move/>
+      {/* <Move/> */}
+      <FetchApi/>
     </>
   );
 }
