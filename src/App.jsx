@@ -3,13 +3,12 @@
 // import Props from "./Component/Props/Props"
 // import Event from './Component/Event/Event'
 // import User from "./Component/User"
-
-import Tweet from "./Component/Tweet";
-
+// import Tweet from "./Component/Tweet";
 // import SayHello from "./Component/SayHello";
 
-// import List from "./Component/List";
+import Move from "./Component/Move";
 
+// import List from "./Component/List";
 function App() {
   return (
     <>
@@ -20,9 +19,10 @@ function App() {
       {/* <User/> */}
       {/* <List /> */}
       {/* <SayHello namee="leen"/> */}
-      <Tweet name="ahmad" message="hello from ahmad" like="10"/>
+      {/* <Tweet name="ahmad" message="hello from ahmad" like="10"/>
       <Tweet name="leen" message="hello from leen" like="5"/>
-      <Tweet name="kareem" message="hello from kareem" like="3"/>
+      <Tweet name="kareem" message="hello from kareem" like="3"/> */}
+      <Move/>
     </>
   );
 }
